@@ -1,7 +1,7 @@
 Bad Bot Blocker
 ===============
 
-223 Apache htaccess rules to block bad bots.
+Apache htaccess rules to block bad bots.
 
 Bad bots are defined as:
 
@@ -34,6 +34,10 @@ it's actually one of the most dangerous.
 
 Setup
 -----
+
+This should be added to the site .htaccess file just after the php version
+is set and defaults file on Siteground sites. Best discretion on where this
+goes is advised. Assumes you have other rewrite rules in place.
 
 If you have a bizarre or complicated setup, be sure to look everything
 over before using it. But for anyone with something that resembles
